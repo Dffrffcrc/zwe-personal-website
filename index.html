@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwe Paing's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Permanent+Marker&family=Azeret+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Comic panels decoration -->
+    <div class="comic-grid" aria-hidden="true"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">ZP</span>
+                <span class="logo-bracket">]</span>
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="hero-label-text">Secondary 2 Student</span>
+                    <svg class="hero-label-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                    </svg>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-line title-highlight">Zwe Paing</span>
+                </h1>
+                <p class="hero-description">
+                    Leader, passionate coder, driven to make a difference—one step at a time.
+                </p>
+                <div class="hero-cta">
+                    <a href="#activities" class="btn btn-primary">
+                        <span>Check Out My Stuff</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Say Hi!</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="speech-bubble">
+                    <p>"Just trying to figure out how this all works!"</p>
+                    <div class="bubble-tail"></div>
+                </div>
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                    </div>
+                    <pre class="code-content"><code><span class="code-keyword">const</span> <span class="code-var">interests</span> = [
+  <span class="code-string">'coding'</span>,
+  <span class="code-string">'games'</span>,
+  <span class="code-string">'robotics'</span>
+];
+
+<span class="code-comment">// Always learning 🚀</span></code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I am a Year 2 student at the School of Science and Technology (SST) with a strong interest in coding and technology. I am driven to make a positive difference by serving the community through my coding skills.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📚</div>
+                            <div class="highlight-content">
+                                <h3>Currently</h3>
+                                <p>Year 2 Student</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">💡</div>
+                            <div class="highlight-content">
+                                <h3>Interests</h3>
+                                <p>Coding, Robotics, Tinkering</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎯</div>
+                            <div class="highlight-content">
+                                <h3>Focus</h3>
+                                <p>Exploring, Building, Creating Meaningful Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">My Activities</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-featured="true">
+                    <div class="project-tag">CCA</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Robotics@Apex</h3>
+                        <p class="project-description">
+                            Participated in numerous robotics competitions, learning perseverance, resilience, and problem-solving while building and refining robots.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spike Prime</span>
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">C++</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">SST INC</h3>
+                        <p class="project-description">
+                            Talent development programme nurturing tech startups to drive societal impact through technology.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Passion Projects</h3>
+                        <p class="project-description">
+                           I’ve built a variety of projects using both coding and Arduino. Explore my <a href="https://github.com/Dffrffcrc" target="_blank">GitHub</a> to see these creations!
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Volunteering</h3>
+                        <p class="project-description">
+                          Participated in community programs, supporting elderly homes and mentoring primary school students.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Project Management</span>
+                            <span class="tech-tag">Communication</span>
+                            <span class="tech-tag">Leadership</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="category-icon">💻</span>
+                        Proficient Languages
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Swift</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-methods">
+                <a href="mailto:zwe_paing_htet@s2025.ssts.edu.sg" class="contact-method">
+                    <div class="method-icon">📧</div>
+                    <div class="method-content">
+                        <div class="method-label">School Email</div>
+                        <div class="method-value">zwe_paing_htet@s2025.ssts.edu.sg</div>
+                    </div>
+                </a>
+                <a href="mailto:zw3paing@gmail.com" class="contact-method">
+                    <div class="method-icon">📧</div>
+                    <div class="method-content">
+                        <div class="method-label">Personal Email</div>
+                        <div class="method-value">zw3paing@gmail.com</div>
+                    </div>
+                </a>
+                <a href="https://github.com/Dffrffcrc" target="_blank" class="contact-method">
+                    <div class="method-icon">🐱</div>
+                    <div class="method-content">
+                        <div class="method-label">GitHub</div>
+                        <div class="method-value">@Dffrffcrc</div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/zwe-paing-5423a5377/" target="_blank" class="contact-method">
+                    <div class="method-icon">🔗</div>
+                    <div class="method-content">
+                        <div class="method-label">LinkedIn</div>
+                        <div class="method-value">@ZwePaing</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & built by Zwe Paing. Made with ☕ and curiosity.</p>
+            <a href="#top" class="footer-link">Back to Top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
